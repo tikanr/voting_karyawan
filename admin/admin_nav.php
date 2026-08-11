@@ -27,6 +27,6 @@ $currentFile = basename($_SERVER['PHP_SELF']);
         <a href="<?= h($item['url']) ?>" class="admin-nav-link <?= $currentFile === $item['url'] ? 'active' : '' ?>"><?= h($item['label']) ?></a>
       <?php endforeach; ?>
     </nav>
-    <a href="logout.php" class="link-muted">Logout</a>
+    <a href="logout.php" class="link-muted">Loppogout</a>
   </div>
 </header>
